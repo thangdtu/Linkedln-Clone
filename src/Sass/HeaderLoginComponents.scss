@@ -1,0 +1,41 @@
+.wrapper {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linkedinLogo {
+  height: 34px;
+  width: 135px;
+  margin-right: 500px;
+}
+.inner {
+  display: flex;
+  max-width: 1128px;
+  align-items: center;
+}
+.SubHeadline {
+  display: flex;
+}
+.login-wrapper-inner{
+    display: flex;
+}
+.discover,
+.people,
+.learning,
+.jobs,
+.join-now,
+.sign-in {
+  margin-right: 8px;
+  width: 80px;
+  height: 52px;
+  font-size: 14px;
+  display:grid;
+  justify-content:center;
+  align-items:center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    color:rgba(0, 0, 0, 0.6)
+}

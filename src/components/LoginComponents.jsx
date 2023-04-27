@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { LoginAPI , RegisterAPI } from "../api/AuthAPI";
 import "../Sass/LoginComponents.scss";
+import HeaderLoginComponents from "./HeaderLoginComponents";
 
 export default function LoginComponents() {
   const [credentails, setCredentials] = useState({});
@@ -13,8 +14,8 @@ export default function LoginComponents() {
     }
   };
   return (
-    <div>
-      <h1>LoginComponents</h1>
+    <div className="login-wrapper" >
+      <HeaderLoginComponents/>
       <div className="login-wrapper-inner">
         <h1 className="heading">Sign in</h1>
         <p className="sub-heading">Stay updated on your professional world</p>
