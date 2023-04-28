@@ -38,9 +38,9 @@ export default function HeaderLoginComponents() {
             </div>
             <div>Jobs</div>
           </div>
-          
+          <div className="join-now-btn" >Join now</div>
+          <div className="sign-in-btn" >Sign in</div>
         </div>
-        
       </div>
     </div>
   );
