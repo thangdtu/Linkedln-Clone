@@ -1,6 +1,6 @@
 import React from "react";
-import LinkedlnLogo from "../assets/linkedinLogo.png";
-import "../Sass/HeaderLoginComponents.scss";
+import LinkedInLogo from "../../../assets/LinkedInLogo.png";
+import "../HeaderLoginComponents/HeaderLoginComponents.scss";
 import {
   RiCompassDiscoverFill,
   RiBriefcaseFill,
@@ -12,7 +12,7 @@ export default function HeaderLoginComponents() {
   return (
     <div className="wrapper">
       <div className="inner">
-        <img src={LinkedlnLogo} className="linkedinLogo" />
+        <img src={LinkedInLogo} className="linkedinLogo" />
         <div className="SubHeadline">
           <div className="discover">
             <div className="icon">
