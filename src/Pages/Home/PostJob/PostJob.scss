@@ -1,0 +1,42 @@
+.wrapper-postjob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #ffe6e6;
+    height: 290px;
+  }
+  .title-postjob {
+    font-family: system-ui;
+    font-size: 46px;
+    font-weight: 250px;
+    max-width: 600px;
+    padding-top: 20px;
+    color: #8f5849;
+  }
+  .postjob-inner {
+    width: 600px;
+    padding-top: 20px;
+  }
+  .postjob-btn {
+    display: flex;
+    text-decoration: none;
+    margin: 4px 4px 4px 0px;
+    justify-content: center;
+    border-radius: 24px;
+    border: 1px solid #0072b1;
+    cursor: pointer;
+    .postjob-btn-title{
+      margin: 16px 16px 16px 16px;
+      color: #0072b1;
+      font-family: system-ui;
+      font-size: 14px;
+      font-weight: bold;
+      border-bottom: 0 px;
+      word-break: keep-all;
+    }
+  }
+  .postjob-btn:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  

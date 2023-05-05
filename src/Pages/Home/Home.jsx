@@ -2,6 +2,7 @@ import React from 'react'
 import LoginComponents from '../../components/LoginComponents'
 import HeaderLoginComponents from './HeaderLoginComponents/HeaderLoginComponents'
 import FindJob from './FindJob/FindJob'
+import PostJob from './PostJob/PostJob'
 
 
 export default function Login() {
@@ -10,6 +11,7 @@ export default function Login() {
       <HeaderLoginComponents/>
       <LoginComponents/>
       <FindJob/>
+      <PostJob/>
     </div>
   )
 }

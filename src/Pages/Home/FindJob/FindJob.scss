@@ -3,15 +3,18 @@
   justify-content: center;
   padding-top: 20px;
   background-color: #e8e8e8;
+  height: 467px;
 }
 .title {
   font-family: system-ui;
   font-size: 56px;
   font-weight: 200;
   max-width: 600px;
+  padding-top: 20px;
 }
 .suggested-searches {
   width: 600px;
+  padding-top: 20px;
   .suggested-searches-tittle {
     font-family: system-ui;
     font-size: 16px;
@@ -31,7 +34,7 @@
   justify-content: center;
   border-radius: 24px;
   border: 1px solid rgba(0, 0, 0, 0.75);
-  
+
   .search-name-title {
     margin: 15px 15px 15px 15px;
     color: rgba(0, 0, 0, 0.75);
@@ -43,5 +46,35 @@
   }
 }
 .search-name:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.showmore-btn {
+  display: flex;
+  text-decoration: none;
+  margin: 4px 4px 4px 0px;
+  justify-content: center;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  .showmore-btn-title{
+    margin: 8px 8px 8px 8px;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 0 px;
+    word-break: keep-all;
+  }
+  .icon-showmore-btn{
+    margin: 10px 8px 8px 0px;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 0 px;
+    word-break: keep-all;
+  }
+}
+.showmore-btn:hover {
   background-color: rgba(0, 0, 0, 0.04);
 }
