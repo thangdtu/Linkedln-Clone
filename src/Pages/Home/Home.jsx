@@ -4,6 +4,7 @@ import HeaderLoginComponents from './HeaderLoginComponents/HeaderLoginComponents
 import FindJob from './FindJob/FindJob'
 import PostJob from './PostJob/PostJob'
 import SlideList from './SlideList/SlideList'
+import Conandlearn from './Conandlearn/Conandlearn'
 
 
 export default function Login() {
@@ -14,6 +15,7 @@ export default function Login() {
       <FindJob/>
       <PostJob/>
       <SlideList/>
+      <Conandlearn/>
     </div>
   )
 }

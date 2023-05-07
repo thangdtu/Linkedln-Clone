@@ -51,7 +51,7 @@ export const Carousel = () => {
       <div className="carousel">
         <div
           className="inner"
-          style={{ transform: `translate(-${activeIndex * 128.5}%)` }}
+          style={{ transform: `translate(-${activeIndex * 106.5}%)` }}
         >
           {items.map((item) => {
             return <CarouselItem item={item} width={"200%"} />;

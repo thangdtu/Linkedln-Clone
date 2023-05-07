@@ -1,0 +1,99 @@
+.wrapper-conandlearn {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.con,
+.learn {
+  width: 600px;
+}
+.imgcon,
+.imglearn {
+  width: 312px;
+  height: 312px;
+}
+.con-title,
+.learn-title {
+  font-family: system-ui;
+  font-size: 48px;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.9);
+  width: 500px;
+}
+.con-btn {
+  display: flex;
+  text-decoration: none;
+  margin: 4px 4px 4px 0px;
+  justify-content: center;
+  border-radius: 24px;
+  border: 1px solid #000000bf;
+  cursor: pointer;
+  .con-btn-title {
+    margin: 16px 16px 16px 16px;
+    color: #000000bf;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 0 px;
+    word-break: keep-all;
+  }
+}
+.learn-btn {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  margin: 4px 4px 4px 0px;
+  height: 50px;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  .learn-btn-title {
+    margin: 15px 15px 15px 15px;
+    color: #000000bf;
+    font-family: system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 0 px;
+    word-break: keep-all;
+  }
+  .learn-btn-icon {
+    width: 20px;
+    height: 20px;
+    color: #000000bf;
+  }
+}
+.con-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.learn-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.dropdown-conandlearn-wrapper {
+  border: 1px solid black;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.dropdown-conandlearn {
+  cursor: pointer;
+}
+.title-dropdown {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 0 10px 10px;
+}
+.desc-dropdown {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  margin: 10px 0 10px 10px;
+}
+.dropdown-conandlearn:hover {
+  text-decoration: underline;
+}
